@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char HodorTranslateVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <HodorTranslate/PublicHeader.h>
 
+#import "HodorTranslate-Swift.h"
 

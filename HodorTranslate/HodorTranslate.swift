@@ -8,13 +8,13 @@
 
 import Foundation
 
-public class HodorTranslate {
+@objc public class HodorTranslate: NSObject {
     
-    public static func translate(text: String) -> String {
+    @objc public static func translate(text: String) -> String {
         return "Hodor!"
     }
     
-    public func translate(text: String) -> String {
+    @objc public func translate(text: String) -> String {
         return "Hodor!"
     }
 }
