@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, "8.0"
   spec.requires_arc = true
-  spec.source = { :path => '.' }
+  spec.source = { :path => 'https://github.com/IlliaVl/HodorTranslate' }
   spec.source_files = "HodorTranslate/**/*.{h,swift}"
 
 end
